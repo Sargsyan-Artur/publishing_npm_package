@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "skipLibCheck": true,
+        "module": "commonjs",
+        "target": "es2015",
+        "declaration": true,
+        "outDir": "./dist"
+    },
+    "exclude": [
+        "../node_modules",
+        "build",
+        "artifacts",
+        "__mocks__",
+        "tests"
+    ],
+    "include": [
+        "src/**/*"
+    ]
+}
