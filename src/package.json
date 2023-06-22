@@ -2,13 +2,13 @@
   "name": "npmregister",
   "version": "1.0.1",
   "description": "",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "./index.js",
+  "types": "./index.d.ts",
   "files": [
     "/dist"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc -p ."
   },
   "dependencies": {
     "@cucumber/cucumber": "^9.1.2",

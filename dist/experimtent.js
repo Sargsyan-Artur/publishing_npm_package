@@ -9,5 +9,6 @@ exports.sayHello = sayHello;
 function sayGoodbye() {
     console.log('goodbye');
     console.log(process.env.PROJECT);
+    console.log("aa=====", browser);
 }
 exports.sayGoodbye = sayGoodbye;
